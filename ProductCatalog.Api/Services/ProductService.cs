@@ -119,6 +119,26 @@ namespace ProductCatalog.Api.Services
             _repo.Update(p);
             await _repo.SaveChangesAsync();
             return Map(p);
+           
         }
+
+        //--------------------------------
+        public async Task<ProductDto?> RemoveImageAsync(int id)
+        {
+            var p = await _repo.GetByIdAsync(id);
+            if (p == null) return null;
+
+            // delete file from disk if exists
+            if (!string.IsNullOrWhiteSpace(p.ImageUrl))
+            {
+                await _fileService.DeleteFileAsync(p.ImageUrl);
+                p.ImageUrl = null; // remove reference in DB
+            }
+
+            _repo.Update(p);
+            await _repo.SaveChangesAsync();
+            return Map(p);
+        }
+
     }
 }

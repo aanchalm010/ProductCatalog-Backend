@@ -1,0 +1,3 @@
+C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\wwwroot\images\617eb3ad-b292-4d5b-861c-7e9e89f27b0f.jpg
+C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\wwwroot\images\f2f57243-5c74-477e-bfd4-cbb8b202e939.webp
+C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\wwwroot\images\e7908c2c-3774-418f-8fe6-f21bc2e324fc.jpg

@@ -170,5 +170,16 @@ namespace ProductCatalog.Api.Controllers
             var updated = await _svc.UploadImageAsync(id, file);
             return updated == null ? NotFound() : Ok(updated);
         }
+
+        //------------------------------------------------
+       //DELETE /api/products/{id}/image
+       [HttpDelete("{id:int}/image")]
+       [ProducesResponseType(StatusCodes.Status200OK)]
+       [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> RemoveImage(int id)
+    {
+        var updated = await _svc.RemoveImageAsync(id);
+        return updated == null ? NotFound() : Ok(updated);
     }
+}
 }

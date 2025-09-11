@@ -11,5 +11,7 @@ namespace ProductCatalog.Api.Services
         Task<ProductDto?> UpdateAsync(int id, UpdateProductDto dto);
         Task<bool> DeleteAsync(int id);
         Task<ProductDto?> UploadImageAsync(int id, IFormFile file);
+        //--------------------
+        Task<ProductDto?> RemoveImageAsync(int id);
     }
 }
