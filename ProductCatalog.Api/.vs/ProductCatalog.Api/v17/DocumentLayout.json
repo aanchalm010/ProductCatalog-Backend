@@ -3,11 +3,24 @@
   "WorkspaceRootPath": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/ProductDb/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|c:\\aanchal\\harmantraining\\project\\backend\\productcatalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|c:\\aanchal\\harmantraining\\project\\backend\\productcatalog.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|c:\\aanchal\\harmantraining\\project\\backend\\productcatalog.api\\dtos\\fileuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|solutionrelative:dtos\\fileuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|c:\\aanchal\\harmantraining\\project\\backend\\productcatalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|c:\\aanchal\\harmantraining\\project\\backend\\productcatalog.api\\swagger\\fileuploadoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|solutionrelative:swagger\\fileuploadoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|c:\\aanchal\\harmantraining\\project\\backend\\productcatalog.api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -16,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|c:\\aanchal\\harmantraining\\project\\backend\\productcatalog.api\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|solutionrelative:services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|c:\\aanchal\\harmantraining\\project\\backend\\productcatalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|c:\\aanchal\\harmantraining\\project\\backend\\productcatalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3467B574-91B7-4F2E-968D-8CF17108AA00}|ProductCatalog.Api.csproj|c:\\aanchal\\harmantraining\\project\\backend\\productcatalog.api\\services\\localfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -100,18 +105,28 @@
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileUploadDto.cs",
+              "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Dtos\\FileUploadDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\FileUploadDto.cs",
+              "ToolTip": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Dtos\\FileUploadDto.cs",
+              "RelativeToolTip": "Dtos\\FileUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T07:18:55.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Products [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/ProductDb/True/SqlTable/dbo.Products.sql",
-              "ToolTip": "dbo.Products [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-09-11T05:06:56.436Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "FileUploadOperationFilter.cs",
+              "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Swagger\\FileUploadOperationFilter.cs",
+              "RelativeDocumentMoniker": "Swagger\\FileUploadOperationFilter.cs",
+              "ToolTip": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Swagger\\FileUploadOperationFilter.cs",
+              "RelativeToolTip": "Swagger\\FileUploadOperationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T09:06:14.479Z"
             },
             {
               "$type": "Document",
@@ -121,26 +136,13 @@
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAUwK4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAqwKwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T16:21:08.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T16:21:08.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateProductDto.cs",
-              "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Dtos\\UpdateProductDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\UpdateProductDto.cs",
-              "ToolTip": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Dtos\\UpdateProductDto.cs",
-              "RelativeToolTip": "Dtos\\UpdateProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T16:22:47.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Services\\IProductService.cs",
               "RelativeDocumentMoniker": "Services\\IProductService.cs",
@@ -148,25 +150,23 @@
               "RelativeToolTip": "Services\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T16:28:13.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T16:28:13.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
               "ToolTip": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Services\\ProductService.cs",
               "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAmwIIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T16:28:34.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T16:28:34.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LocalFileService.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Services\\LocalFileService.cs",
               "RelativeDocumentMoniker": "Services\\LocalFileService.cs",
@@ -178,19 +178,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T16:43:37.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Dtos\\ProductDto.cs",
               "RelativeDocumentMoniker": "Dtos\\ProductDto.cs",
@@ -202,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -210,11 +210,24 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-09T16:46:21.492Z"
+              "WhenOpened": "2025-09-09T16:46:21.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Dtos\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Dtos\\UpdateProductDto.cs",
+              "RelativeToolTip": "Dtos\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:22:47.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CreateProductDto.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Dtos\\CreateProductDto.cs",
               "RelativeDocumentMoniker": "Dtos\\CreateProductDto.cs",
@@ -226,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "20250909165459_init.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Migrations\\20250909165459_init.cs",
               "RelativeDocumentMoniker": "Migrations\\20250909165459_init.cs",
@@ -238,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IFileService.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Services\\IFileService.cs",
               "RelativeDocumentMoniker": "Services\\IFileService.cs",
@@ -250,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
@@ -262,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "Middlewares\\ExceptionHandlingMiddleware.cs",
@@ -274,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ExceptionHandlingExtensions.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Middlewares\\ExceptionHandlingExtensions.cs",
               "RelativeDocumentMoniker": "Middlewares\\ExceptionHandlingExtensions.cs",
@@ -286,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IProductRepository.cs",
@@ -298,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -310,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Aanchal\\HarmanTraining\\Project\\Backend\\ProductCatalog.Api\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",

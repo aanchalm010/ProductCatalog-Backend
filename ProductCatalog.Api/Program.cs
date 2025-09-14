@@ -3,13 +3,19 @@ using ProductCatalog.Api.Data;
 using ProductCatalog.Api.Middlewares;
 using ProductCatalog.Api.Repositories;
 using ProductCatalog.Api.Services;
+using ProductCatalog.Api.Swagger;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+//builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.OperationFilter<FileUploadOperationFilter>();
+});
+
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();

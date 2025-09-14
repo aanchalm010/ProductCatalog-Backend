@@ -159,21 +159,41 @@ namespace ProductCatalog.Api.Controllers
         }
 
         // POST /api/products/{id}/image
-        [HttpPost("{id:int}/image")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> UploadImage(int id, [FromForm] IFormFile file)
-        {
-            if (file == null || file.Length == 0) return BadRequest("No file uploaded.");
+        //[HttpPost("{id:int}/image")]
+        //[ProducesResponseType(StatusCodes.Status200OK)]
+        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
+        //[ProducesResponseType(StatusCodes.Status404NotFound)]
+        //public async Task<IActionResult> UploadImage(int id, [FromForm] IFormFile file)
+        //{
+        //    if (file == null || file.Length == 0) return BadRequest("No file uploaded.");
 
-            var updated = await _svc.UploadImageAsync(id, file);
-            return updated == null ? NotFound() : Ok(updated);
+        //    var updated = await _svc.UploadImageAsync(id, file);
+        //    return updated == null ? NotFound() : Ok(updated);
+        //}
+        [HttpPost("{id}/image")]
+        [Produces("application/json")]
+        [Consumes("multipart/form-data")]   
+        [ProducesResponseType(typeof(ProductDto), StatusCodes.Status200OK)]   
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]               
+        [ProducesResponseType(StatusCodes.Status404NotFound)]                 
+        public async Task<ActionResult<ProductDto>> UploadImage(int id, [FromForm] FileUploadDto dto)
+        {
+            if (dto.File == null || dto.File.Length == 0)
+                return BadRequest("Invalid file.");   
+
+            var result = await _svc.UploadImageAsync(id, dto.File);
+            if (result == null)
+                return NotFound();                   
+
+            return Ok(result);                       
         }
 
+
+
+
         //------------------------------------------------
-       //DELETE /api/products/{id}/image
-       [HttpDelete("{id:int}/image")]
+        //DELETE /api/products/{id}/image
+        [HttpDelete("{id:int}/image")]
        [ProducesResponseType(StatusCodes.Status200OK)]
        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> RemoveImage(int id)
