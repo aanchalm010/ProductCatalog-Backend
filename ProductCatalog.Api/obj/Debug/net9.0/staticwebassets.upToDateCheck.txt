@@ -3,5 +3,5 @@ wwwroot\images\a1a3c97c-a6ee-4afd-8bfc-c58ad460073e.jfif
 wwwroot\images\25915a6c-9e0c-4936-8e89-830b021f0279.webp
 wwwroot\images\21ef84dc-a210-4d63-a969-0bb81877899d.jpg
 wwwroot\images\9f1238eb-ff98-4277-8516-a616997fb003.jpg
-wwwroot\images\a07c231f-c667-4125-af00-0ca429a89f45.jpg
-wwwroot\images\9a097e61-0082-4e79-9ca6-46589be1365b.jfif
+wwwroot\images\eb198395-2176-4163-802b-2965b3a970b9.jpg
+wwwroot\images\ae197609-6cd5-4fff-b2a7-314975f20c9b.jfif

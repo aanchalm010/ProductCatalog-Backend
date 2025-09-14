@@ -19,7 +19,8 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<IFileService, LocalFileService>();
+//builder.Services.AddScoped<IFileService, LocalFileService>();
+builder.Services.AddScoped<IFileService, AzureBlobFileService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 
 // CORS for Angular dev
@@ -40,10 +41,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 var app = builder.Build();
 
 // Ensure wwwroot/images exists
-var wwwRoot = app.Environment.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
-if (!Directory.Exists(wwwRoot)) Directory.CreateDirectory(wwwRoot);
-var imagesDir = Path.Combine(wwwRoot, "images");
-if (!Directory.Exists(imagesDir)) Directory.CreateDirectory(imagesDir);
+//var wwwRoot = app.Environment.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+//if (!Directory.Exists(wwwRoot)) Directory.CreateDirectory(wwwRoot);
+//var imagesDir = Path.Combine(wwwRoot, "images");
+//if (!Directory.Exists(imagesDir)) Directory.CreateDirectory(imagesDir);
 
 // Apply migrations automatically
 using (var scope = app.Services.CreateScope())
