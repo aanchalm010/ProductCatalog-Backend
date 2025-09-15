@@ -15,15 +15,15 @@ steps:
     version: '8.0.x'
 
 # Restore dependencies
-- script: dotnet restore Backend/ProductCatalog.Api/ProductCatalog.Api.csproj
+- script: dotnet restore ProductCatalog.Api/ProductCatalog.Api.csproj
   displayName: 'dotnet restore'
 
 # Build
-- script: dotnet build Backend/ProductCatalog.Api/ProductCatalog.Api.csproj --configuration $(buildConfiguration) --no-restore
+- script: dotnet build ProductCatalog.Api/ProductCatalog.Api.csproj --configuration $(buildConfiguration) --no-restore
   displayName: 'dotnet build'
 
 # Publish
-- script: dotnet publish Backend/ProductCatalog.Api/ProductCatalog.Api.csproj -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)
+- script: dotnet publish ProductCatalog.Api/ProductCatalog.Api.csproj -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)
   displayName: 'dotnet publish'
 
 # Publish artifact (drop folder)
