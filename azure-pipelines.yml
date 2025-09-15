@@ -1,8 +1,3 @@
-# ASP.NET
-# Build and test ASP.NET projects.
-# Add steps that publish symbols, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
-
 trigger:
 - master
 
@@ -10,25 +5,29 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
 steps:
-- task: NuGetToolInstaller@1
-
-- task: NuGetCommand@2
+# Install .NET SDK
+- task: UseDotNet@2
   inputs:
-    restoreSolution: '$(solution)'
+    packageType: sdk
+    version: '8.0.x'
 
-- task: VSBuild@1
+# Restore dependencies
+- script: dotnet restore Backend/ProductCatalog.Api/ProductCatalog.Api.csproj
+  displayName: 'dotnet restore'
+
+# Build
+- script: dotnet build Backend/ProductCatalog.Api/ProductCatalog.Api.csproj --configuration $(buildConfiguration) --no-restore
+  displayName: 'dotnet build'
+
+# Publish
+- script: dotnet publish Backend/ProductCatalog.Api/ProductCatalog.Api.csproj -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)
+  displayName: 'dotnet publish'
+
+# Publish artifact (drop folder)
+- task: PublishBuildArtifacts@1
   inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
-# - task: VSTest@2
-#   inputs:
-#     platform: '$(buildPlatform)'
-#     configuration: '$(buildConfiguration)'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'

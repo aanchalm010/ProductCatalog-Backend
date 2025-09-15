@@ -280,7 +280,8 @@
               "RelativeToolTip": "Dtos\\FileUploadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T07:18:55.071Z"
+              "WhenOpened": "2025-09-12T07:18:55.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -340,7 +341,8 @@
               "RelativeToolTip": "Migrations\\20250909165459_init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T16:55:00.266Z"
+              "WhenOpened": "2025-09-09T16:55:00.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
