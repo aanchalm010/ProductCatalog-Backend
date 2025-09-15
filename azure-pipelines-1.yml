@@ -8,7 +8,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-# Install .NET SDK 9
+# Install .NET SDK
 - task: UseDotNet@2
   inputs:
     packageType: sdk
@@ -45,11 +45,3 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
-
-# Deploy to Azure App Service
-- task: AzureWebApp@1
-  displayName: 'Deploy to Azure App Service'
-  inputs:
-    azureSubscription: 'AzureProdConnection'   # 🔹 your service connection
-    appName: 'myproductcatalog'                # 🔹 your App Service name
-    package: '$(Build.ArtifactStagingDirectory)'
