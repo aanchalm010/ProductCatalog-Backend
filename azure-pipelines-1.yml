@@ -1,0 +1,47 @@
+trigger:
+- master   # Run pipeline when pushing to master branch
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+# Install .NET SDK
+- task: UseDotNet@2
+  inputs:
+    packageType: sdk
+    version: '8.0.x'
+    includePreviewVersions: true
+
+# Restore dependencies
+- task: DotNetCoreCLI@2
+  displayName: 'Restore NuGet packages'
+  inputs:
+    command: restore
+    projects: 'ProductCatalog.Api/ProductCatalog.Api.csproj'
+
+# Build
+- task: DotNetCoreCLI@2
+  displayName: 'Build project'
+  inputs:
+    command: build
+    projects: 'ProductCatalog.Api/ProductCatalog.Api.csproj'
+    arguments: '--configuration $(buildConfiguration) --no-restore'
+
+# Publish
+- task: DotNetCoreCLI@2
+  displayName: 'Publish project'
+  inputs:
+    command: publish
+    projects: 'ProductCatalog.Api/ProductCatalog.Api.csproj'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+
+# Publish artifact (drop folder)
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish build artifacts'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
