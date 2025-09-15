@@ -38,6 +38,9 @@ builder.Services.AddCors(options =>
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+string myEnvVar = builder.Configuration["MyEnv"] ?? "Not Found";
+Console.WriteLine($"Environment is {myEnvVar}");
+
 var app = builder.Build();
 
 // Ensure wwwroot/images exists

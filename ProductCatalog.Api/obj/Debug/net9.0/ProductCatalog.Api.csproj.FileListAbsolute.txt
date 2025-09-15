@@ -167,7 +167,9 @@ C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\bin\Debug\net9.0\ru
 C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\obj\Debug\net9.0\ProductCatalog.Api.sourcelink.json
-C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\bin\Debug\net9.0\Azure.Storage.Blobs.dll
 C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\bin\Debug\net9.0\Azure.Storage.Common.dll
 C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\bin\Debug\net9.0\System.IO.Hashing.dll
+C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\bin\Debug\net9.0\appsettings.Staging.json
+C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\bin\Debug\net9.0\appsettings.Testing.json
+C:\Aanchal\HarmanTraining\Project\Backend\ProductCatalog.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
